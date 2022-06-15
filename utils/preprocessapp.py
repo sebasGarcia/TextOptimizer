@@ -55,8 +55,13 @@ def loadNLP(lang):
     This function is used to load the language model from spaCy
     """
     if(lang == "nl"):
-     nlp = spacy.load("nl_core_news_md")
-     return nlp
+        try:
+            nlp = spacy.load("nl_core_news_md")
+        except: # If not present, we download
+            spacy.cli.download("nl_core_news_md")
+            nlp = spacy.load("nl_core_news_md")
+     
+    return nlp
 
 def getStopWords():
     """
