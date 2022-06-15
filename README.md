@@ -50,21 +50,21 @@ To open the heroku application, follow the link [Heroku](https://textoptimizerap
 ## Result
 
 ### Visualisation of the LDA model with pyLDAvis
-<p align="center"><img src="image\LDA_modelVisualisation.png" alt="Logo" width="400" height="250"></p>
+<p align="center"><img src="image\LDA_modelVisualisation.png" alt="Logo" width="800" height="500"></p>
 
 ### Cloud of Words
-<p align="center"><img src="image\Topic.png" alt="Logo" width="400" height="250"></p>
+<p align="center"><img src="image\Topic.png" alt="Logo" width="800" height="500"></p>
 
 ### Streamlit App Interface
 
 #### Name Entity Recognition
-<p align="center"><img src="image\App.png" alt="Logo" width="400" height="250"></p>
+<p align="center"><img src="image\App.png" alt="Logo" width="800" height="500"></p>
 
 #### Word Importance 
-<p align="center"><img src="image\bar1.png" alt="Logo" width="400" height="250"></p>
+<p align="center"><img src="image\bar1.png" alt="Logo" width="800" height="500"></p>
 
 #### Summarization of Text
-<p align="center"><img src="image\sum.png" alt="Logo" width="400" height="250"></p>
+<p align="center"><img src="image\sum.png" alt="Logo" width="800" height="500"></p>
 
 
 ## Used Language and Libraries:
